@@ -19,6 +19,7 @@
 
     <!-- CUSTOM STYLE  -->
     <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/mystyle.css" rel="stylesheet" />
      <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,11 +31,10 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 font-12">
                     <strong>Email: </strong>info@parkon.com
                     &nbsp;&nbsp;
                     <strong>Support: </strong>+98-765-432-10
-                    <i class="fa fa-car fa-2x"></i>
                 </div>
 
             </div>
@@ -44,21 +44,21 @@
     <div class="navbar navbar-inverse set-radius-zero">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                </button> -->
                 <a class="navbar-brand" href="index.html">
-
-                    <img src="../assets/img/logo.png" />
+                    <img src="../assets/img/parkon-logo-5.png" class="custom-logo" />
                 </a>
-
             </div>
 
-            <div class="left-div">
-                <i class="fa fa-user-plus login-icon" ></i>
-        </div>
+            <div class="left-div"> &nbsp;
+            </div>
+            
+    
+
             </div>
         </div>
     <!-- LOGO HEADER END-->
@@ -69,28 +69,22 @@
             <div class="row">
                 <div class="col-md-12">
                     <h4 class="page-head-line">Please Login To Enter </h4>
-
                 </div>
-
             </div>
             <div class="row">
                 <div class="col-md-6">
-                   <h4> Login with facebook <strong> / </strong>Google :</h4>
-                    <br />
-                    <a href="index.html" class="btn btn-social btn-facebook">
-                            <i class="fa fa-facebook"></i>&nbsp; Facebook Account</a>
-                    &nbsp;OR&nbsp;
-                    <a href="index.html" class="btn btn-social btn-google">
-                            <i class="fa fa-google-plus"></i>&nbsp; Google Account</a>
-                    <hr />
-                     <h4> Or Login with <strong>Zontal Account  :</strong></h4>
-                    <br />
-                     <label>Enter Email ID : </label>
-                        <input type="text" class="form-control" />
-                        <label>Enter Password :  </label>
-                        <input type="password" class="form-control" />
+                    <form action="" method="post" class="form">
+                        <h4> Login with <strong>ParkOn Account  :</strong></h4>
+                        <br />
+                        <label> Email ID : </label>
+                        <input type="email" class="form-control" placeholder="Enter Your Email ID" required />
+                        <br/>
+                        <label> Password :  </label>
+                        <input type="password" class="form-control" placeholder="Enter Your Password" required/>
                         <hr />
-                        <a href="index.html" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </a>&nbsp;
+                        <input name="submit" type="submit" class="btn btn-info"  value="Log In">
+                    <!-- <a href="index.html" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </a>&nbsp; -->
+                    </form>
                 </div>
                 <div class="col-md-6">
                     <div class="alert alert-info">
@@ -142,9 +136,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    &copy; 2015 YourCompany | By : <a href="http://www.designbootstrap.com/" target="_blank">DesignBootstrap</a>
+                    &copy; 2018 ParkOn | Created with <i class="fa fa-heart"></i>  By ParkOn
                 </div>
-
             </div>
         </div>
     </footer>
